@@ -1,0 +1,80 @@
+[
+    {
+        "ch_id": 1,
+        "ch_name": "DD National",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/master/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/index.m3u8?aws.sessionId=76f77eed-cc82-4371-a512-b9b5e86e1b2c",
+        "desc": "DD National Live Stream Channel"
+    },
+    {
+        "ch_id": 2,
+        "ch_name": "DD Sports",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/master/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/index.m3u8?aws.sessionId=cc2b21ec-61b2-4abc-8a52-739234d3b54e",
+        "desc": "DD Sports Live Stream Channel"
+    },
+    {
+        "ch_id": 3,
+        "ch_name": "DD News",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/master/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/index.m3u8?aws.sessionId=952402eb-2b68-435d-b5e1-9018e15e4bc2",
+        "desc": "DD News Live Stream Channel"
+    },
+    {
+        "ch_id": 4,
+        "ch_name": "DD Bharti",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/master/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/index.m3u8?aws.sessionId=870de490-dc61-4236-90eb-a91050e1b7c4",
+        "desc": "DD Bharti Live Stream Channel"
+    },
+    {
+        "ch_id": 5,
+        "ch_name": "DD India",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/master/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/index.m3u8?aws.sessionId=0441e4f9-e1d2-4434-a703-3823f04d5424",
+        "desc": "DD India Live Stream Channel"
+    },
+    {
+        "ch_id": 6,
+        "ch_name": "DD Kisaan",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/master/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/index.m3u8?aws.sessionId=2ffe1682-55bc-4e80-9c17-dabad53aca0e",
+        "desc": "DD Kisaan Live Stream Channel"
+    },
+    {
+        "ch_id": 7,
+        "ch_name": "DD UP",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/master/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/index.m3u8?aws.sessionId=000a9e9f-f25c-4253-8f2b-bc3c0eb4ea69",
+        "desc": "DD UP Live Stream Channel"
+    },
+    {
+        "ch_id": 8,
+        "ch_name": "Sansad TV 1",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/master/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/index.m3u8?aws.sessionId=f85b1278-455f-430f-a03a-2a9396a0c05f",
+        "desc": "Sansad TV 1 Live Stream Channel"
+    },
+    {
+        "ch_id": 9,
+        "ch_name": "Sansad TV 2",
+        "stream_url": "https://d3eyhgoylams0m.cloudfront.net/v1/master/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/index.m3u8?aws.sessionId=b5932ada-b81d-45e3-bb44-926bc7aece6f",
+        "desc": "Sansad TV 2 Live Stream Channel"
+    },  {
+        "ch_id": 10,
+        "ch_name": "9xM",
+        "stream_url": "https://d3kdywbtdfbp9z.cloudfront.net/v1/master/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/dff423e0-3c82-46d6-9ecb-3baa96b5694a/master.m3u8?aws.sessionId=a745c28b-6fae-4d5a-834a-619692410352",
+        "desc": "9xM Live Stream Channel"
+    },
+    {
+        "ch_id": 11,
+        "ch_name": "Masti",
+        "stream_url": "https://d3kdywbtdfbp9z.cloudfront.net/v1/master/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/dff423e0-3c82-46d6-9ecb-3baa96b5694a/playlist.m3u8?aws.sessionId=5a199308-4458-4479-b015-d7ed10940c74",
+        "desc": "Masti Live Stream Channel"
+    },
+    {
+        "ch_id": 12,
+        "ch_name": "B4U Movies",
+        "stream_url": "https://d3kdywbtdfbp9z.cloudfront.net/v1/master/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/dff423e0-3c82-46d6-9ecb-3baa96b5694a/master.m3u8?aws.sessionId=f8bcdc21-f833-4d03-9590-23a544a896e8",
+        "desc": "B4U Movies Live Stream Channel"
+    },
+    {
+        "ch_id": 13,
+        "ch_name": "E24 ",
+        "stream_url": "https://d3kdywbtdfbp9z.cloudfront.net/v1/master/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/dff423e0-3c82-46d6-9ecb-3baa96b5694a/master_1.m3u8?aws.sessionId=4c368c4b-4b49-4537-a3ab-c3ed140c1ba3",
+        "desc": "E24 Movies Live Stream Channel"
+    }
+
+]

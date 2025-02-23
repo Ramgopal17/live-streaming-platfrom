@@ -1,0 +1,270 @@
+* {
+  overflow: hidden visible;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 0;
+}
+
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+.vidDiv {
+  background-color: black;
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .videoPlayer {
+    aspect-ratio: 16 / 9;
+
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .videoPlayer>video {
+    display: block;
+    position: absolute;
+    object-fit: contain;
+    top: 0;
+    width: 100vw;
+    aspect-ratio: 16 / 9;
+
+  }
+
+  .settingOptionDiv {
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+    justify-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .settingOptionDiv>div {
+    margin: 5em;
+    padding: 10px;
+    list-style: none;
+    cursor: pointer;
+    overflow-y: scroll;
+    width: 20vw;
+    height: 50vh;
+  }
+
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .videoPlayer {
+    height: 80vh;
+    width: 100vw;
+    aspect-ratio: 16 / 9;
+
+    overflow: hidden;
+    position: relative;
+  }
+
+  .videoPlayer>video {
+    display: block;
+    position: absolute;
+    object-fit: contain;
+    top: 0;
+    width: 100vw;
+    height: 80vh;
+    aspect-ratio: 16 / 9;
+
+
+  }
+
+
+  .settingOptionDiv {
+    position: absolute;
+    z-index: 10;
+    bottom: 10vh;
+    left: 40vw;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+    justify-items: center;
+    padding: 5px;
+    max-height: 50vh;
+  }
+
+  .settingOptionDiv>div {
+    list-style: none;
+    cursor: pointer;
+    overflow-y: scroll;
+    width: 20vw;
+    max-height: 30vh;
+  }
+
+}
+
+
+
+.videoPlayer:fullscreen video {
+  width: 100vw;
+  height: 100vh;
+}
+
+.bottomVideoControls {
+  position: absolute;
+  bottom: 0px;
+  z-index: 10;
+}
+
+.topVideoControls {
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+}
+
+
+
+.videoControls {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.342);
+}
+
+
+
+.videoControlsButton {
+  background-color: rgba(255, 0, 0, 0);
+  color: white;
+  cursor: pointer;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.ProgressBar {
+  background-color: white;
+  height: 5px;
+  width: 85%;
+  margin-top: 20px;
+}
+
+.vidDescBox {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(235, 234, 234);
+  text-align: left;
+  font-size: 15px;
+  border-radius: 12px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.navbar {
+  width: 100vw;
+  height: 50px;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navItem {
+  margin: 10px;
+  padding: 2px;
+  padding-right:10px;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+
+.navLogo {
+  font-size: 1rem;
+  text-shadow: 0 0 3px #180707;
+  font-weight: bold;
+  font-size: larger;
+
+ }
+.videoCardContainer{
+  place-items: center ;
+}
+
+.videoCardDiv {
+    display: grid;
+    grid-template-columns: 1fr; /* Default: One column */
+    gap: 20px;
+  }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .videoCardDiv {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .videoCardDiv {
+    grid-template-columns: repeat(4, 1fr); 
+  }
+}
+
+.videoCard {
+  height: 150px;
+  width: 250px;
+  background-color: rgb(223, 213, 213);
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.videoCard>img {
+  object-fit: contain;
+  width: 250px;
+  height: 140px;
+}
+
+.videoCardinfo {
+  position: absolute;
+  bottom: 0px;
+  width: 260px;
+  height: 70px;
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(210, 210, 223, 0.192) 100%, rgba(88,103,89,0.14889705882352944) 100%);
+  color: white;
+}
+.videoCardinfo>div {
+  position: absolute;
+  bottom: 0px;
+  width: 250px;
+  margin: 2px;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid red;
+}
+input[type=text]:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(118, 121, 115);
+
+}
+
+#accountMenu{
+  position: absolute;
+  right: 0;
+  width: 15vw;
+  background-color: rgba(255, 255, 255, 0.986);
+  text-align: center;
+  padding: 10px;
+  color: red;
+  list-style: none;
+  border-radius: 5px;
+  border: 1px solid gray;
+  z-index: 20;
+}
+
+#accountMenu> li{
+cursor: pointer;
+}
